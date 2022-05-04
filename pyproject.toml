@@ -9,6 +9,10 @@ license = "MIT"
 python = "^3.9"
 jupyter = "^1.0"
 nest-asyncio = "^1.5.5"
+pydra = "^0.18"
+pydra-nipype1 = "^0.1.0"
+nipype = {extras = ["pybids"], version = "^1.7.1"}
+nilearn = "^0.9.1"
 
 [tool.poetry.dev-dependencies]
 
